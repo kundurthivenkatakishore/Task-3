@@ -1,0 +1,58 @@
+{
+    "meta": {
+      "theme": "stackoverflow"
+    }
+    "basics": {
+      "name": "Kundurthi Venkata Kishore",
+      "email": "kundurthivenkatakishore@gmail.com"
+      [
+        {
+          "network": "Github",
+          "username": "kundurthivenkatakishore",
+          "url": "https://github.com/kundurthivenkatakishore"
+        },
+        {
+          "network": "LinkedIn",
+          "username": "Kundurthi Venkata Kishore",
+          "url": "https://www.linkedin.com/in/kvenkatakishore"
+        },
+    },
+    "education": [
+      {
+        "studyType": "Bachelor of Technology in Computer Science",
+        "institution": "Rajiv Gandhi University of Knowledge Technologies,Kadapa",
+        "startDate": "2018-07",
+        "endDate": "2022-05"
+      }
+    ],
+    ],
+    "projects": [
+      {
+        "name": "Venue Booking System",
+        "description": "A platform for booking a venue for special occasionss,
+                        "User can login into our software with registered email id and password,
+                        "and select the venue which they want and can contact the manager of the particular venue with the help of 
+                        "details provided in the website."
+
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Front End",
+        "keywords": [
+          "Java Script",
+          "HTML"
+          "CSS"
+        ]
+      },,
+      {
+        "name": "Databases",
+        "keywords": [
+          "CosmosDB",
+          "SQL",
+          "Redis",
+          "Graph"
+        ]
+    }
+  }
