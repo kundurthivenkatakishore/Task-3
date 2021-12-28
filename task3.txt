@@ -1,3 +1,178 @@
+1)For the given JSON iterate over all for loops (for, for in, for of, forEach)
+        
+For loop
+data:
+    var obj=[
+        {
+            person:"kishore",
+            age:22,
+            company:"Guvi"
+        }
+        {
+            person:"tharun",
+            age:30,
+            comoany:"Guvi Geek"
+        }
+        {
+            person:"naveen",
+            age:40,
+            company:"Guvi Geek Network"
+        }
+    ]
+
+code:
+     for(let i=0;i<obj.length;i++)
+     {
+        console.log(`${obj[i].person},
+        ${obj[i].age},
+        ${obj[i].company}`);
+     }
+     
+ output:
+     kishore,
+     22,
+     Guvi
+     
+     tharun,
+     30,
+     Guvi Geek
+     
+     naveen,
+     40,
+     Guvi Geek Network
+ 
+ For Each Loop:
+ 
+ data:
+ 
+ var obj=[
+        {
+            person:"kishore",
+            age:23,
+            company:"Guvi"
+        }
+        {
+            person:"tharun",
+            age:31,
+            comoany:"Guvi Geek"
+        }
+        {
+            person:"naveen",
+            age:42,
+            company:"Guvi Geek Network"
+        }
+    ]
+    
+code:
+    obj.forEach(objects => {
+        console.log(`${objects.person}
+        ${objects.age}
+        ${objects.company}`);
+    });
+
+output:
+    kishore
+    23
+    Guvi
+    
+    tharun
+    30
+    Guvi Geek
+    
+    naveen
+    40
+    Guvi Geek Network
+
+For in Loop
+data:
+     var obj=[
+        {
+            person:"kishore",
+            age:25,
+            company:"Guvi"
+        }
+        {
+            person:"tharun",
+            age:36,
+            comoany:"Guvi Geek"
+        }
+        {
+            person:"naveen",
+            age:45,
+            company:"Guvi Geek Network"
+        }
+    ]
+      
+code:
+
+    for(var key in obj)
+    {
+        console.log(`${obj[key].person}
+        ${obj[key].age}
+        ${obj[key].company}`);
+    }
+    
+output:
+    kishore
+    25
+    Guvi
+    
+    tharun
+    36
+    Guvi Geek
+    
+    naveen
+    45
+    Guvi Geek Network
+
+For of Loop
+
+data:
+    var obj=[
+        {
+            person:"kishore",
+            age:25,
+            company:"Guvi"
+        }
+        {
+            person:"tharun",
+            age:36,
+            comoany:"Guvi Geek"
+        }
+        {
+            person:"naveen",
+            age:45,
+            company:"Guvi Geek Network"
+        }
+    ]
+
+code:
+    for(var i of obj)
+    {
+        console.log(`${i.person}
+        ${i.age}
+        ${i.company}`)
+    }
+    
+output:
+    kishore
+    25
+    Guvi
+    
+    tharun
+    36
+    Guvi Geek
+    
+    naveen
+    45
+    Guvi Geek Network
+    
+
+    
+2)Create your own resume data in JSON format
+
+code:
+
 var resume={
     {
         name:"Kundurthi Venkata Kishore"
