@@ -1,0 +1,53 @@
+var resume={
+    {
+        name:"Kundurthi Venkata Kishore"
+        email:"kundurthivenkatakishore@gmail.com"
+        mobileno:6303448475;
+        adsress{
+            village:"Dagadarthi";
+            mandal:"Dagadarthi";
+            district:"Nellore";
+            state:"Andhra Pradesh";
+            pin:524240;
+            country:"India";
+        }
+    },
+    {
+        careerobjective:"Proactive Computer Science Student Currenrtly Attending Rajiv Gandhi Internation Univercity f Knowledge Technologis.Aiming to leverage proven communication and teamwork skills to successfully fill the Web Devolper role at your company.Frequently praised as Focussed by my peers.I can relied upon to help your company achieve its golas"
+    },
+    "Education",
+    {
+        10th{
+            school:"ZPHS Dagadarthi";
+            GPA:9.7;
+        }
+        "Puc"{
+            college:"Rajiv Gandhi University of Knowledge Technologies";
+            GPA:8.1;
+        }
+        "B-tech"
+        {
+            college:"Rajiv Gandhi University of Knowledge Technologies"
+            GPA:8.0;
+        }
+    },
+    "Technoical Skills",
+    {
+        webtechnologies:"Html,CSS,JavaScript";
+        programming languages:"C,Java";
+    },
+    "AcadamicProjects",
+    {
+        projectname:"Venue Booking System";
+        projectdescription:"As part of B. Tech. Research Project (4th Semester, team of two),We used Web
+        "Technologies like HTML,CSS for Front End Development and PHP for Server side"
+        "and MySQL for storing the user data,to Provide a Platform to Book a Venue was"
+        "responsible for the Good User Interface that I developed using"
+        "HTML,CSS,JavaScript"
+    },
+    {
+        Hobbies:"Playing Crirket,Watching Movies";
+    }
+    
+
+}
